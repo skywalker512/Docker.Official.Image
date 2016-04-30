@@ -28,7 +28,7 @@ USER rocketchat
 WORKDIR /app/bundle
 
 # needs a mongoinstance - defaults to container linking with alias 'db'
-ENV MONGO_URL=mongodb://MONGODB_PORT_27017_TCP_ADDR:27017/meteor \
+ENV MONGO_URL=mongodb://10.10.72.139:27017/meteor \
     HOME=/tmp \
     PORT=3000 \
     ROOT_URL=http://localhost:3000 \
